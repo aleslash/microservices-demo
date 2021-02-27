@@ -1,3 +1,22 @@
+Fork of the [microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo) project from Google
+
+Converting some of the microservices to Java + Spring, Kotlin + Micronaut or C# .NET 5
+
+| Service                                              | Original Language      | Study Language                                                                                                                       |
+| ---------------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [frontend](./src/frontend)                           | Go            | Remains on GO for now. |
+| [cartservice](./src/cartservice)                     | C#            | C# .NET 5|
+| [productcatalogservice](./src/productcatalogservice) | Go            | Java + Spring|
+| [currencyservice](./src/currencyservice)             | Node.js       | Kotlin + Micronaut |
+| [paymentservice](./src/paymentservice)               | Node.js       | Kotlin + Micronaut|
+| [shippingservice](./src/shippingservice)             | Go            | C# .NET 5|
+| [emailservice](./src/emailservice)                   | Python        | Kotlin + Micronaut        |
+| [checkoutservice](./src/checkoutservice)             | Go            | Java + Spring|
+| [recommendationservice](./src/recommendationservice) | Python        | C# .NET 5|
+| [adservice](./src/adservice)                         | Java          | Java + Spring             |
+| [loadgenerator](./src/loadgenerator)                 | Python/Locust | Remains on Python for now.                                              |
+
+
 <p align="center">
 <img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300" alt="Online Boutique" />
 </p>
